@@ -1,0 +1,104 @@
+/* Write your CSS here */
+@media only screen and (max-width: 767px) {
+  .container {
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .head {
+    font-family: 'Roboto';
+    color: #a35200;
+  }
+  .para {
+    font-family: 'Roboto';
+    color: #334155;
+    font-weight: 600;
+  }
+  .image-coin {
+    width: 50%;
+  }
+  .button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #f9d423;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: #a35200;
+    font-family: 'Roboto';
+    font-weight: 600;
+  }
+  .total {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #334155;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .head {
+    font-family: 'Roboto';
+    color: #a35200;
+  }
+  .para {
+    font-family: 'Roboto';
+    color: #334155;
+    font-weight: 600;
+  }
+  .image-coin {
+    width: 40%;
+  }
+  .button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #f9d423;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: #a35200;
+    font-family: 'Roboto';
+    font-weight: 600;
+  }
+  .total {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #334155;
+    margin-right: 10px;
+  }
+  .result-bar {
+    display: flex;
+  }
+}
